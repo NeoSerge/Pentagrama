@@ -9,14 +9,26 @@ using UnityEngine.Animations;
 public class LoadScenes : MonoBehaviour
 {
 
-    public Animation moveToPortal;
+
+    [SerializeField] private Animation moveToPortal;
 
     //Variables para Cargar avatar
-    public string PartnerURL;
-    public InputField inputFieldURL;
-    public string avatarURL;
-    public GameObject parentOfAvatar;
-    public GameObject mainCamera;
+    [SerializeField] private string PartnerURL;
+    [SerializeField] private InputField inputFieldURL;
+    [SerializeField] private string avatarURL;
+    [SerializeField] private GameObject parentOfAvatar;
+    [SerializeField] private GameObject mainCamera;
+
+    //Vestimenta Avatar base
+    [SerializeField] private GameObject eyeLeft;
+    [SerializeField] private GameObject eyeRight;
+    [SerializeField] private GameObject body;
+    [SerializeField] private GameObject hair;
+    [SerializeField] private GameObject head;
+    [SerializeField] private GameObject outfitBottom;
+    [SerializeField] private GameObject outfitFootwear;
+    [SerializeField] private GameObject outfitTop;
+    [SerializeField] private GameObject outfitTeeth;
 
     private void Start()
     {
@@ -77,13 +89,77 @@ public class LoadScenes : MonoBehaviour
     {
         // called after avatar is prepared with components and anim controller 
         Debug.Log("Avatar Loaded!");
-        avatar.gameObject.transform.localScale = new Vector3(3.4f, 3.4f, 3.4f);
-        avatar.gameObject.transform.position = new Vector3(avatar.gameObject.transform.position.x,-1.9f, avatar.gameObject.transform.position.z);
+        //avatar.gameObject.transform.localScale = new Vector3(3.4f, 3.4f, 3.4f);
+        //avatar.gameObject.transform.position = new Vector3(avatar.gameObject.transform.position.x,-1.9f, avatar.gameObject.transform.position.z);
         
-        avatar.transform.SetParent(parentOfAvatar.transform);
-        avatar.gameObject.transform.localRotation = Quaternion.Euler(0, mainCamera.gameObject.transform.rotation.y, 0);
+        //avatar.transform.SetParent(parentOfAvatar.transform);
+        //avatar.gameObject.transform.localRotation = Quaternion.Euler(0, mainCamera.gameObject.transform.rotation.y, 0);
 
-        avatar.AddComponent<LockRotation>();
+        //avatar.AddComponent<LockRotation>();
+
+        foreach (Transform child in avatar.transform)
+        {
+            if (child.name == "Avatar_Renderer_EyeLeft")
+            {
+                eyeLeft.gameObject.GetComponent<SkinnedMeshRenderer>().sharedMesh = child.gameObject.GetComponent<SkinnedMeshRenderer>().sharedMesh;
+                eyeLeft.gameObject.GetComponent<Renderer>().material = child.gameObject.GetComponent<Renderer>().material;
+            }
+
+            if (child.name == "Avatar_Renderer_EyeRight")
+            {
+                eyeRight.gameObject.GetComponent<SkinnedMeshRenderer>().sharedMesh = child.gameObject.GetComponent<SkinnedMeshRenderer>().sharedMesh;
+                eyeRight.gameObject.GetComponent<Renderer>().material = child.gameObject.GetComponent<Renderer>().material;
+            }
+
+            if (child.name == "Avatar_Renderer_Body")
+            {
+                body.gameObject.GetComponent<SkinnedMeshRenderer>().sharedMesh = child.gameObject.GetComponent<SkinnedMeshRenderer>().sharedMesh;
+                body.gameObject.GetComponent<Renderer>().material = child.gameObject.GetComponent<Renderer>().material;
+            }
+
+            if (child.name == "Avatar_Renderer_Hair")
+            {
+                if (hair)
+                {
+                    hair.gameObject.GetComponent<SkinnedMeshRenderer>().sharedMesh = child.gameObject.GetComponent<SkinnedMeshRenderer>().sharedMesh;
+                    hair.gameObject.GetComponent<Renderer>().material = child.gameObject.GetComponent<Renderer>().material;
+                }
+            }
+
+            if (child.name == "Avatar_Renderer_Head")
+            {
+                head.gameObject.GetComponent<SkinnedMeshRenderer>().sharedMesh = child.gameObject.GetComponent<SkinnedMeshRenderer>().sharedMesh;
+                head.gameObject.GetComponent<Renderer>().material = child.gameObject.GetComponent<Renderer>().material;
+            }
+
+            if (child.name == "Avatar_Renderer_Outfit_Bottom")
+            {
+                outfitBottom.gameObject.GetComponent<SkinnedMeshRenderer>().sharedMesh = child.gameObject.GetComponent<SkinnedMeshRenderer>().sharedMesh;
+                outfitBottom.gameObject.GetComponent<Renderer>().material = child.gameObject.GetComponent<Renderer>().material;
+            }
+
+            if (child.name == "Avatar_Renderer_Outfit_Footwear")
+            {
+                outfitFootwear.gameObject.GetComponent<SkinnedMeshRenderer>().sharedMesh = child.gameObject.GetComponent<SkinnedMeshRenderer>().sharedMesh;
+                outfitFootwear.gameObject.GetComponent<Renderer>().material = child.gameObject.GetComponent<Renderer>().material;
+            }
+
+            if (child.name == "Avatar_Renderer_Outfit_Top")
+            {
+                outfitTop.gameObject.GetComponent<SkinnedMeshRenderer>().sharedMesh = child.gameObject.GetComponent<SkinnedMeshRenderer>().sharedMesh;
+                outfitTop.gameObject.GetComponent<Renderer>().material = child.gameObject.GetComponent<Renderer>().material;
+            }
+
+            if (child.name == "Avatar_Renderer_Teeth")
+            {
+                outfitTeeth.gameObject.GetComponent<SkinnedMeshRenderer>().sharedMesh = child.gameObject.GetComponent<SkinnedMeshRenderer>().sharedMesh;
+                outfitTeeth.gameObject.GetComponent<Renderer>().material = child.gameObject.GetComponent<Renderer>().material;
+            }
+
+
+        }
+
+        avatar.SetActive(false);
 
         //foreach (Transform child in avatar.transform)
         //{
