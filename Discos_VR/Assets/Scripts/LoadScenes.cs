@@ -47,6 +47,14 @@ public class LoadScenes : MonoBehaviour
         StartCoroutine(LoadPortal(sceneName));
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (this.CompareTag("Moneda"))
+        {
+            //StartCoroutine(LoadPortal());
+        }
+    }
+
     IEnumerator LoadPortal(string sceneName)
     {
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName);
