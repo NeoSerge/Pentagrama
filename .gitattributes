@@ -13,3 +13,4 @@ DiscosVR/Discos_VR/Library/PlayerDataCache
 *.fbx filter=lfs diff=lfs merge=lfs -text
 *.glb filter=lfs diff=lfs merge=lfs -text
 Discos_VR/Library/ filter=lfs diff=lfs merge=lfs -text
+*.unity filter=lfs diff=lfs merge=lfs -text

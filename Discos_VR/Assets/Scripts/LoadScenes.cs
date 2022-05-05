@@ -9,7 +9,7 @@ using UnityEngine.Animations;
 public class LoadScenes : MonoBehaviour
 {
 
-
+    [SerializeField] string sceneName;
     [SerializeField] private Animation moveToPortal;
 
     //Variables para Cargar avatar
@@ -32,6 +32,36 @@ public class LoadScenes : MonoBehaviour
 
     private void Start()
     {
+        if (VariablesGlobales.toPontAeri == true)
+        {
+            sceneName = "3_VR_Disco1";
+        }
+        else if (VariablesGlobales.toBar == true)
+        {
+            sceneName = "4_Bar";
+        }
+        else if (VariablesGlobales.toEscenary == true)
+        {
+            sceneName = "5_Escenary";
+        }
+        else if (VariablesGlobales.toKafe == true)
+        {
+            sceneName = "6_Kafe";
+        }
+        else if (VariablesGlobales.toPrimavera == true)
+        {
+            sceneName = "7_Primavera";
+        }
+        else
+        {
+            sceneName = "3_VR_Disco1";
+        }
+
+
+
+
+
+
         mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
     }
 
@@ -41,10 +71,22 @@ public class LoadScenes : MonoBehaviour
         moveToPortal.Play();
     }
 
-    public void LoadScene(string sceneName)
+    public void LoadScene()
     {
 
-        StartCoroutine(LoadPortal(sceneName));
+        StartCoroutine(LoadPortal());
+    }
+
+    public void LoadLobby()
+    {
+
+        SceneManager.LoadScene("2_Lobby");
+    }
+
+    public void LoadPlaza()
+    {
+
+        SceneManager.LoadScene("1_Plaza");
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -55,7 +97,7 @@ public class LoadScenes : MonoBehaviour
         }
     }
 
-    IEnumerator LoadPortal(string sceneName)
+    IEnumerator LoadPortal()
     {
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName);
 
