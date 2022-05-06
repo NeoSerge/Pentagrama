@@ -15,12 +15,12 @@ D:/Unity Projects/MetaXSP/Pentagrama/Discos_VR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53287
+49598
 Successfully changed project path to: D:/Unity Projects/MetaXSP/Pentagrama/Discos_VR
 D:/Unity Projects/MetaXSP/Pentagrama/Discos_VR
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 62.67 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.63 ms.
+Refreshing native plugins compatible for Editor in 60.45 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.64 ms.
 Initialize engine version: 2020.3.32f1 (12f8b0834f07)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Unity Projects/MetaXSP/Pentagrama/Discos_VR/Assets
@@ -35,152 +35,152 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001854 seconds.
+Registered in 0.001829 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 50.86 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 50.94 ms, found 10 plugins.
 Preloading 1 native plugins for Editor in 0.04 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.441 seconds
+- Completed reload, in  0.447 seconds
 Domain Reload Profiling:
-	ReloadAssembly (441ms)
-		BeginReloadAssembly (47ms)
+	ReloadAssembly (448ms)
+		BeginReloadAssembly (48ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (344ms)
-			LoadAssemblies (45ms)
+		EndReloadAssembly (347ms)
+			LoadAssemblies (47ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (95ms)
+			SetupTypeCache (100ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (148ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (147ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (51ms)
 				BeforeProcessingInitializeOnLoad (13ms)
 				ProcessInitializeOnLoadAttributes (59ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004327 seconds.
+Registered in 0.004318 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002B70B780030 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000024D790899C0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70AB73020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000024D7885C050 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70AC86220 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000024D790899C0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70AF07A40 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
+Symbol file data-0000024D744685A0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70AC86220 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000024D783B0220 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70AC86220 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Siccity.GLTFUtility.dll
+Symbol file data-0000024D790899C0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Siccity.GLTFUtility.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70ACB5E30 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000024D78342420 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70A9CB430 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000024D781F1010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70A9E9840 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file data-0000024D78360830 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Burst.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B706ABE540 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000024D78220620 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7064A0010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file data-0000024D783CE020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B706872010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file data-0000024D77DDE8C0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B706ACE550 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file data-0000024D78360830 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B701006A40 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file data-0000024D736C1480 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B706ACE550 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file data-0000024D790899C0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B706ACE550 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000024D78360830 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70AABD020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file data-0000024D77F36010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70B60CC20 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000024D78360830 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70A830010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000024D780C8C30 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70AF6C860 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+Symbol file data-0000024D7982EC40 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B706872010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file data-0000024D77DD3050 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7069A4010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000024D792D6420 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70682C010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll
+Symbol file data-0000024D79409260 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70AB36E30 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file data-0000024D783B0220 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70A7CD020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-0000024D784BB010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70B6760C0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
+Symbol file data-0000024D791BD0E0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70B60CC20 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-0000024D7840B650 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70A7CD020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file data-0000024D780E6C50 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Burst.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7069E2C30 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file data-0000024D780E6C50 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B706924440 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file data-0000024D74357030 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70AB90240 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file data-0000024D780F5860 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B706BDA250 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\ReadyPlayerMe.dll
+Symbol file data-0000024D74301A00 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\ReadyPlayerMe.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B706BDFC20 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\WebView.dll
+Symbol file data-0000024D74270010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\WebView.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B706444E20 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000024D78A82010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70BDAC470 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\ReadyPlayerMe.Editor.dll
+Symbol file data-0000024D77BD0C20 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\ReadyPlayerMe.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7069E2C30 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
+Symbol file data-0000024D78912E60 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70B0F0420 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file data-0000024D742F7010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B706BDFC20 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file data-0000024D74270010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Management.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B706C85430 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-0000024D740570F0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70A801640 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000024D7891E280 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70B0F0420 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+Symbol file data-0000024D7880E470 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70603C310 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\ReadyPlayerMe.Extras.Editor.dll
+Symbol file data-0000024D73AB1EF0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\ReadyPlayerMe.Extras.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70ACE3DE0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file data-0000024D74270010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B706488240 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file data-0000024D789336A0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70B94D7D0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file data-0000024D7433E230 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70A15F2B0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file data-0000024D789336A0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70BBA1C60 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+Symbol file data-0000024D74407840 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70A1854C0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file data-0000024D789336A0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70A61A860 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
+Symbol file data-0000024D74408080 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7069EE050 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file data-0000024D792EE430 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Oculus.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 57.70 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 49.80 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -201,28 +201,28 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.314 seconds
+- Completed reload, in  1.313 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1315ms)
-		BeginReloadAssembly (103ms)
+	ReloadAssembly (1314ms)
+		BeginReloadAssembly (105ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (1169ms)
-			LoadAssemblies (73ms)
+		EndReloadAssembly (1166ms)
+			LoadAssemblies (100ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (213ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (763ms)
+			SetupLoadedEditorAssemblies (737ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (58ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (605ms)
+				RefreshPlugins (50ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (594ms)
 				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
@@ -232,14 +232,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.31 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 3022 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 157.7 MB.
-System memory in use after: 157.9 MB.
+Refreshing native plugins compatible for Editor in 0.84 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 3024 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.1 MB.
+System memory in use after: 158.3 MB.
 
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3473.
-Total: 3.385800 ms (FindLiveObjects: 0.233700 ms CreateObjectMapping: 0.135300 ms MarkObjects: 2.930200 ms  DeleteObjects: 0.085900 ms)
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3477.
+Total: 3.623600 ms (FindLiveObjects: 0.243200 ms CreateObjectMapping: 0.147100 ms MarkObjects: 3.131300 ms  DeleteObjects: 0.101400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -253,148 +253,160 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/Moneda.prefab
-  artifactKey: Guid(c52d70db62382be4aba855b02eb11a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Moneda.prefab using Guid(c52d70db62382be4aba855b02eb11a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b06d930beca28a4c2e198b3735613c5') in 0.073583 seconds 
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(a872da3f325ec6e4b8cae141c3b7d3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(a872da3f325ec6e4b8cae141c3b7d3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e714f3b625f7b07cc96c63d0a10b36') in 0.052398 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 134.019149 seconds.
-  path: Assets/Scripts/LowerBodyAnimation.cs
-  artifactKey: Guid(eaa8d7f4cf9a98641aa5ea14a0936336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LowerBodyAnimation.cs using Guid(eaa8d7f4cf9a98641aa5ea14a0936336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26865546344b800bf935f7b32874422') in 0.004122 seconds 
+  Time since last request: 75.213954 seconds.
+  path: Assets/Scenes/2_Lobby.unity
+  artifactKey: Guid(4598f13ec32fd9b48ad2bd825451646b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/2_Lobby.unity using Guid(4598f13ec32fd9b48ad2bd825451646b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0694ed596bfd48cef467bdd76194ca75') in 0.001131 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.551641 seconds.
-  path: Assets/Scripts/LockRotation.cs
-  artifactKey: Guid(779f0ad6a04a4f34d8b21f48e4ac0d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LockRotation.cs using Guid(779f0ad6a04a4f34d8b21f48e4ac0d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68be5c3185ab967060b53e9dfd4c226') in 0.001115 seconds 
+  Time since last request: 39.247551 seconds.
+  path: Assets/Scenes/4_Bar.unity
+  artifactKey: Guid(2c4ae1f5b80bb754dabdd3d333ff0b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/4_Bar.unity using Guid(2c4ae1f5b80bb754dabdd3d333ff0b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26cc7b4deb6210031850056e1980791') in 0.001096 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.583925 seconds.
-  path: Assets/Scripts/LoadScenes.cs
-  artifactKey: Guid(0c010836055d3c544ab7709a9547185d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LoadScenes.cs using Guid(0c010836055d3c544ab7709a9547185d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90bcbb75aad7845438d386ac11ccd6bd') in 0.000987 seconds 
+  Time since last request: 45.394344 seconds.
+  path: Assets/Scenes/2_Lobby.unity
+  artifactKey: Guid(4598f13ec32fd9b48ad2bd825451646b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/2_Lobby.unity using Guid(4598f13ec32fd9b48ad2bd825451646b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769f91f6d2f61a10f739f05b7a768eb5') in 0.000977 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.979931 seconds.
-  path: Assets/Scripts/AvatarController.cs
-  artifactKey: Guid(72b0cf011085d714a84f651cc0a303c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/AvatarController.cs using Guid(72b0cf011085d714a84f651cc0a303c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a4c29ecba291d0c1676b0fb64cad67') in 0.001067 seconds 
+  Time since last request: 154.622997 seconds.
+  path: Assets/TirgamesAssets/PBRStageEquipment/Models/Characters/Man_66.png
+  artifactKey: Guid(1abc0d1de50ba7b41bcb8bb43afcdc8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TirgamesAssets/PBRStageEquipment/Models/Characters/Man_66.png using Guid(1abc0d1de50ba7b41bcb8bb43afcdc8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55d0ab65aa37d31039a0c9b618154b7') in 0.091784 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.353421 seconds.
-  path: Assets/Scripts/AnimationController.cs
-  artifactKey: Guid(a36e4996095bb3d4a9d5be9718543780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/AnimationController.cs using Guid(a36e4996095bb3d4a9d5be9718543780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48d241accdd4a9001b654657e91a706') in 0.000960 seconds 
+  Time since last request: 0.546471 seconds.
+  path: Assets/TirgamesAssets/PBRStageEquipment/Models/Characters/Man_66.fbx
+  artifactKey: Guid(b25835b05e364594eb8aa2db839d99e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TirgamesAssets/PBRStageEquipment/Models/Characters/Man_66.fbx using Guid(b25835b05e364594eb8aa2db839d99e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d0af3aa30b8699478e0af0e67b7c9d') in 0.162330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.970398 seconds.
+  path: Assets/TirgamesAssets/PBRStageEquipment/Models/Characters/Hip Hop Dancing 1.fbx
+  artifactKey: Guid(616b5f942b9958c4dac812041e6faf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TirgamesAssets/PBRStageEquipment/Models/Characters/Hip Hop Dancing 1.fbx using Guid(616b5f942b9958c4dac812041e6faf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4107097e2c02fb8bc5c8e9ff381ebff') in 0.070851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.310869 seconds.
+  path: Assets/TirgamesAssets/PBRStageEquipment/Models/Characters/Girl_77.fbx
+  artifactKey: Guid(4d2f2e432664f0e46b8f23fa8fe6fb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TirgamesAssets/PBRStageEquipment/Models/Characters/Girl_77.fbx using Guid(4d2f2e432664f0e46b8f23fa8fe6fb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f0109364c0e6d84668a79f80a5723e') in 0.133403 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004160 seconds.
+Registered in 0.184423 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002B70AE45A20 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000024D78364840 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B706758700 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000024D74006050 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70E1F39C0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000024D79B38840 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B715677E70 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
+Symbol file data-0000024BC30BD210 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70A753620 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000024D7D1EC420 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70E1F39C0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Siccity.GLTFUtility.dll
+Symbol file data-0000024D79B38840 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Siccity.GLTFUtility.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B706758700 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000024D79391020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B711D12020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000024D7E24E9C0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70F5AF2E0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file data-0000024D7B5DC010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Burst.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70AE0C010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000024D7B576020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70B06A020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file data-0000024D78166010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B712F500F0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file data-0000024D7BC8C7D0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70F465A30 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file data-0000024D79B38840 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B715136470 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file data-0000024BC33330F0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70B082C30 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file data-0000024D7817EC20 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70E1F39C0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000024D7817EC20 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70E3B3010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file data-0000024D7B2D8010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B706A876A0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000024D7892E290 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70A830010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000024D78EF7010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70F7FA4A0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+Symbol file data-0000024D783B9E10 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70B51EB20 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file data-0000024D78672590 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70F197560 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000024D79932010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B712246210 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll
+Symbol file data-0000024BC3AB4F50 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70E42CE20 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file data-0000024D79C34E30 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7069A4010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-0000024D79DD4020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70BAF8010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
+Symbol file data-0000024D79A71620 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B706A876A0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-0000024D7892E290 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70B99A020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file data-0000024D7BDEB010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Burst.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B710565900 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file data-0000024BC3DF4010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B706924410 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file data-0000024D74357030 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B706A876A0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file data-0000024D7892E290 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B715D63150 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\ReadyPlayerMe.dll
+Symbol file data-0000024D7B888430 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\ReadyPlayerMe.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70D94CC20 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\WebView.dll
+Symbol file data-0000024D7B888430 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\WebView.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70A778020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000024D78253040 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B712495100 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\ReadyPlayerMe.Editor.dll
+Symbol file data-0000024BC0437090 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\ReadyPlayerMe.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70B516030 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
+Symbol file data-0000024D79827020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70E459030 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file data-0000024D78781050 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B706A8B8B0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file data-0000024D7B888430 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Management.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70E459030 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-0000024D7BEB3030 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B710565900 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000024BC3DF4010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70E459030 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+Symbol file data-0000024D78781050 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B712EFA5F0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\ReadyPlayerMe.Extras.Editor.dll
+Symbol file data-0000024BC3CB9C90 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\ReadyPlayerMe.Extras.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B706A8B8B0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file data-0000024D78537E40 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70AF5C010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file data-0000024D74044EA0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B712373A70 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file data-0000024D7D9BB9E0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70DAF2E40 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file data-0000024D74044EA0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70FB748B0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+Symbol file data-0000024D780C8830 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70DAF2E40 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file data-0000024D74044EA0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70E3A0840 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
+Symbol file data-0000024D741A56D0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70BC46020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file data-0000024D74568860 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Oculus.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 1.20 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <8c5a8d07a8984a6fbb6ff8bbd8146fd5>:0 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <8c5a8d07a8984a6fbb6ff8bbd8146fd5>:0 
@@ -411,229 +423,493 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.899 seconds
+- Completed reload, in  1.101 seconds
 Domain Reload Profiling:
-	ReloadAssembly (899ms)
-		BeginReloadAssembly (96ms)
+	ReloadAssembly (1102ms)
+		BeginReloadAssembly (112ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (760ms)
-			LoadAssemblies (76ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (940ms)
+			LoadAssemblies (92ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (206ms)
+			SetupTypeCache (252ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (382ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (471ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (364ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.99 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2952 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 167.2 MB.
+System memory in use after: 167.4 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3526.
+Total: 3.969700 ms (FindLiveObjects: 0.365400 ms CreateObjectMapping: 0.178700 ms MarkObjects: 3.393200 ms  DeleteObjects: 0.030600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 548.563699 seconds.
+  path: Assets/2DArt/disco_pontaeri.png
+  artifactKey: Guid(483fa5c145a155346929c489a5d30b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DArt/disco_pontaeri.png using Guid(483fa5c145a155346929c489a5d30b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ab682712d080700fa9141b754d685d') in 0.043284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.772394 seconds.
+  path: Assets/2DArt/_base_colores_fonts.png
+  artifactKey: Guid(9466c248f9878a24091aef01102318a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DArt/_base_colores_fonts.png using Guid(9466c248f9878a24091aef01102318a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e925207d5bc79f41912dd395c583e20') in 0.018804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.811836 seconds.
+  path: Assets/2DArt/base_nft_lobby.png
+  artifactKey: Guid(1e71395f6e938f44784331fb38704ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DArt/base_nft_lobby.png using Guid(1e71395f6e938f44784331fb38704ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b364bfae5bdcc72b5104302a517a5a35') in 0.007689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.683256 seconds.
+  path: Assets/2DArt/bg_disco_eventos.png
+  artifactKey: Guid(118d91e5cd9c2f4478cb433c0f98832f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DArt/bg_disco_eventos.png using Guid(118d91e5cd9c2f4478cb433c0f98832f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab9d228edab3d6642164c7ef54523b4') in 0.015777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.171198 seconds.
+  path: Assets/2DArt/bg_marketplace.png
+  artifactKey: Guid(5df4f42de8ae11b4fba07918814111eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DArt/bg_marketplace.png using Guid(5df4f42de8ae11b4fba07918814111eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e3d7ae1460d045fe9da3d3218a6fdb') in 0.009511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.195396 seconds.
+  path: Assets/2DArt/bg_perfil.png
+  artifactKey: Guid(0e655c9e74593ed40aeda78f74046e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DArt/bg_perfil.png using Guid(0e655c9e74593ed40aeda78f74046e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2576df4d12a30142976780b9313c2d35') in 0.012567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.150978 seconds.
+  path: Assets/2DArt/Boton_Entrada.png
+  artifactKey: Guid(0c9aef487d232c44aad2c7eb53534363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DArt/Boton_Entrada.png using Guid(0c9aef487d232c44aad2c7eb53534363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a9edfb7219ee039ee3a041d91c7193') in 0.007804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.107425 seconds.
+  path: Assets/2DArt/BotonAvatar.png
+  artifactKey: Guid(cf5e451f3dfc3134fb212d087ee123aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DArt/BotonAvatar.png using Guid(cf5e451f3dfc3134fb212d087ee123aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f847554ca6f01adc8dd5a1a875380df') in 0.008259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.293358 seconds.
+  path: Assets/2DArt/btn_flecha_roja.png
+  artifactKey: Guid(5937038f87bcd84459de792651d5c836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DArt/btn_flecha_roja.png using Guid(5937038f87bcd84459de792651d5c836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232917dac6fe5852f8c1e6d9794e8319') in 0.008865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.132130 seconds.
+  path: Assets/2DArt/btn_flecha_verde.png
+  artifactKey: Guid(354756e424a03674ebe6c6f67f78765f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DArt/btn_flecha_verde.png using Guid(354756e424a03674ebe6c6f67f78765f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271874042284e4b8ff469a74cff08a4c') in 0.007813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.111819 seconds.
+  path: Assets/2DArt/Captura.PNG
+  artifactKey: Guid(fdef2d31c177260419d52f0d15dc09a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DArt/Captura.PNG using Guid(fdef2d31c177260419d52f0d15dc09a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da9554a487dc3f66a872f1eba6a6490') in 0.029243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.729821 seconds.
+  path: Assets/2DArt/lobby_discov2.png
+  artifactKey: Guid(61a61b3c845296e428c4b73e3618dce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DArt/lobby_discov2.png using Guid(61a61b3c845296e428c4b73e3618dce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cf4b0bca825ebab3b5ff9e1d2f467e') in 0.016120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.741314 seconds.
+  path: Assets/2DArt/Bar.PNG
+  artifactKey: Guid(fdef2d31c177260419d52f0d15dc09a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DArt/Bar.PNG using Guid(fdef2d31c177260419d52f0d15dc09a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9282cff9a830995b7e81a18574b640') in 0.048048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.579714 seconds.
+  path: Assets/2DArt/Bar.PNG
+  artifactKey: Guid(fdef2d31c177260419d52f0d15dc09a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DArt/Bar.PNG using Guid(fdef2d31c177260419d52f0d15dc09a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a0682401f2bcce28d26f716f26d909') in 0.033620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.150191 seconds.
+  path: Assets/Scenes/5_Escenary.unity
+  artifactKey: Guid(2edff0ead61fae049b1f09b187e3f5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/5_Escenary.unity using Guid(2edff0ead61fae049b1f09b187e3f5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd01f376b8f2974059aceddd1ba08948') in 0.001045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 226.310638 seconds.
+  path: Assets/TirgamesAssets/PBRStageEquipment/Models/Characters/DJ_Dancing.prefab
+  artifactKey: Guid(c1b4cb6dc18bbcd46bc03de6bae4b621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TirgamesAssets/PBRStageEquipment/Models/Characters/DJ_Dancing.prefab using Guid(c1b4cb6dc18bbcd46bc03de6bae4b621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf5641b4b4fc9c37588d22f9e1a92bd') in 0.391411 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005165 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000024BC0E031C0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024D7BA7C020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC0ED3440 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC30BBBD0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC3571E40 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC050C3C0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Siccity.GLTFUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024D7445BD90 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC2CF6C80 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024D77CEB030 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC0EC14D0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC0B2CD90 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024D7BC88160 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC050C3C0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC33330F0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC03D20F0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC3193F10 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC2630080 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC0B988B0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024D7BE51020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC35FE3B0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024D7BAB8A10 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC2D42530 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC02FB280 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC26B01D0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC3DB2180 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024D792EF030 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC0B988B0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC0636210 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024D7C573020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC0E50440 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC0B9E050 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024D73EA5630 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\ReadyPlayerMe.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC347F470 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\WebView.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC29F2F80 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC07F6BA0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\ReadyPlayerMe.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024D79B72020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC2E54CC0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC347F470 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC347C620 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024D7C573020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC0236A50 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC3CBF810 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\ReadyPlayerMe.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024D7E081E20 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC2C82A30 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC3C41E10 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC03D9460 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024D7979B4D0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC0401010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC3361B90 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC3356E60 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <8c5a8d07a8984a6fbb6ff8bbd8146fd5>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <8c5a8d07a8984a6fbb6ff8bbd8146fd5>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <294703faec74477f8b275446429fba82>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.127 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1128ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (963ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (263ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (477ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (292ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (370ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 2.01 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2952 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 167.4 MB.
+System memory in use after: 167.6 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3551.
+Total: 6.251900 ms (FindLiveObjects: 0.455700 ms CreateObjectMapping: 0.273400 ms MarkObjects: 5.448600 ms  DeleteObjects: 0.072700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 73.638724 seconds.
+  path: Assets/Scenes/6_Kafe.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/6_Kafe.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83970d18402676b74d5322d24acc24ab') in 0.004773 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004800 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000024BC0E031C0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024D78095040 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC01D5020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC0D47480 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC3571E40 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC050C3C0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Siccity.GLTFUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024D7445BD90 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC0DAF010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024D7B5DC010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC0D2F890 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC0B2CD90 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024D7D5FFE90 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC050C3C0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024D736BFA40 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024D7BE38010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC3193F10 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC2630080 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC0EB4030 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC0648F40 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC35FE7A0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC3A85EC0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC2D42530 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC02FB280 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC26B01D0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC3DB2180 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024D7B76E040 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC0B988B0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024D7BB48950 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024D7C573020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC0E50440 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC056D020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC3187E20 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\ReadyPlayerMe.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024D78297BE0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\WebView.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC29F2F80 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC371CBB0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\ReadyPlayerMe.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024D745DFCF0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC2E54CC0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024D78297BE0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC319F180 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024D7C573020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC2E54CC0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC3CBE8D0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\ReadyPlayerMe.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024D7E081E20 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC01D5020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC3DB1600 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC03D9460 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024D74407040 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC0401010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC3361B90 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024BC3356E60 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <8c5a8d07a8984a6fbb6ff8bbd8146fd5>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <8c5a8d07a8984a6fbb6ff8bbd8146fd5>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <294703faec74477f8b275446429fba82>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.054 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1055ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (898ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (240ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (449ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (349ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.89 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 2950 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.1 MB.
-System memory in use after: 153.3 MB.
+Refreshing native plugins compatible for Editor in 1.41 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 2952 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 167.4 MB.
+System memory in use after: 167.7 MB.
 
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3484.
-Total: 3.795300 ms (FindLiveObjects: 0.245900 ms CreateObjectMapping: 0.145400 ms MarkObjects: 3.367500 ms  DeleteObjects: 0.035700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 826.195626 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b40c3a8a557c839239ad6b55c7ebd6') in 0.015436 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 322.321798 seconds.
-  path: Assets/Scripts/LoadScenes.cs
-  artifactKey: Guid(0c010836055d3c544ab7709a9547185d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LoadScenes.cs using Guid(0c010836055d3c544ab7709a9547185d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072c13788f30beac7cb89757f6be07ef') in 0.001191 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004735 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002B71201C010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70EC9B020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B712629F60 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B71567C6C0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B712325F10 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70ECCB050 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Siccity.GLTFUtility.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70F077020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B706A43C20 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7121BD3F0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7158651E0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B712C698B0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B712F51F20 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70ECCB050 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B701004820 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70A2A6430 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B712629F60 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7128C0990 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B715DEEB30 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7120D5040 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70F7FCFF0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70B522A80 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70C26C010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B71223F370 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B712C54670 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B715816990 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70DAC0040 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7121BD3F0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B715B82D70 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Burst.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7154F83B0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7065FA380 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B71513D1E0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B6DB8305D0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\ReadyPlayerMe.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B715C7A880 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\WebView.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70A778020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7122D4DC0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\ReadyPlayerMe.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7158EF840 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B715D2E860 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B71020B050 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B715134390 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7154F83B0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B71516D8A0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B712EF42D0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\ReadyPlayerMe.Extras.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B715C7A880 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70B60A020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70660EA80 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7152BFED0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7127CA480 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B712C43E40 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70FB838C0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70BC46020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Oculus.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <8c5a8d07a8984a6fbb6ff8bbd8146fd5>:0 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <8c5a8d07a8984a6fbb6ff8bbd8146fd5>:0 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <294703faec74477f8b275446429fba82>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.897 seconds
-Domain Reload Profiling:
-	ReloadAssembly (897ms)
-		BeginReloadAssembly (92ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (764ms)
-			LoadAssemblies (76ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (208ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (376ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (289ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.85 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 2950 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.2 MB.
-System memory in use after: 153.4 MB.
-
-Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3488.
-Total: 3.005400 ms (FindLiveObjects: 0.257000 ms CreateObjectMapping: 0.074700 ms MarkObjects: 2.640600 ms  DeleteObjects: 0.032500 ms)
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3555.
+Total: 5.733600 ms (FindLiveObjects: 0.577700 ms CreateObjectMapping: 0.254300 ms MarkObjects: 4.856300 ms  DeleteObjects: 0.043900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -648,323 +924,119 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.066839 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(acb6cff6b6325fc4db607f21dc8ad0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(acb6cff6b6325fc4db607f21dc8ad0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44a47edf4a9c49f12349f1e23b57ffe') in 0.004511 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.823375 seconds.
-  path: Assets/Scripts/bla.cs
-  artifactKey: Guid(f4da8e8979fa051478d62caad7435841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/bla.cs using Guid(f4da8e8979fa051478d62caad7435841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a52e1937215702c021a4446a7ff484') in 0.001067 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004250 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002B712BCD6D0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70DE08020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B712629F60 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B71567C130 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B712325F10 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B712A53070 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Siccity.GLTFUtility.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70F077020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7106B7010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7121BD3F0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7126B9640 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B711FBC900 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B712F51F20 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B712A53070 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B715138150 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70A2A6430 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B712629F60 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7128C0990 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B715DEEB30 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70E110020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70F7FC030 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70B524A30 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70C26C010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B71223B110 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B715234840 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B712BE78C0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70DAC0040 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7121BD3F0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B715B82D70 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Burst.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7154F83B0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7065FA380 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70E7AA040 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B6DB8305D0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\ReadyPlayerMe.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B71020B050 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\WebView.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70A778020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B712BBB6D0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\ReadyPlayerMe.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7158EF840 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B715D2C2B0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B71020B050 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B715134390 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7154F83B0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B71516D8A0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B712EF7FD0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\ReadyPlayerMe.Extras.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B71020B050 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70B60A020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B712BA0C00 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7152BFED0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B715DE6B10 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B712C43E40 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70FB838C0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70BC46020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Oculus.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <8c5a8d07a8984a6fbb6ff8bbd8146fd5>:0 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <8c5a8d07a8984a6fbb6ff8bbd8146fd5>:0 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <294703faec74477f8b275446429fba82>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.975 seconds
-Domain Reload Profiling:
-	ReloadAssembly (975ms)
-		BeginReloadAssembly (93ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (832ms)
-			LoadAssemblies (80ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (235ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (391ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (299ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.89 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 2951 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.2 MB.
-System memory in use after: 153.5 MB.
-
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3493.
-Total: 3.049900 ms (FindLiveObjects: 0.221600 ms CreateObjectMapping: 0.078700 ms MarkObjects: 2.719000 ms  DeleteObjects: 0.030000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 286.628717 seconds.
-  path: Assets/Scenes/4_Bar.unity
-  artifactKey: Guid(2c4ae1f5b80bb754dabdd3d333ff0b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/4_Bar.unity using Guid(2c4ae1f5b80bb754dabdd3d333ff0b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3194c2d11f5627eb3fb2886e79daea2') in 0.005011 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.070342 seconds.
-  path: Assets/Scenes/6_Kafe.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/6_Kafe.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87dae00f41ed43e9157295979e4a580b') in 0.001055 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.916702 seconds.
+  Time since last request: 292.043898 seconds.
   path: Assets/Scenes/7_Primavera.unity
   artifactKey: Guid(75d7e9842d4110a4db7b7e294202f043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/7_Primavera.unity using Guid(75d7e9842d4110a4db7b7e294202f043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3adda65d31600137f13544eb971d1bd') in 0.001274 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.976317 seconds.
-  path: Assets/Scenes/8_Plaza Limpio.unity
-  artifactKey: Guid(fc68c8fcc0799844985ce949f2781133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/8_Plaza Limpio.unity using Guid(fc68c8fcc0799844985ce949f2781133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98146c20494ab61f48b84ee40629be5a') in 0.001170 seconds 
+Start importing Assets/Scenes/7_Primavera.unity using Guid(75d7e9842d4110a4db7b7e294202f043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c7a08be37595fc663372d697a28d59') in 0.004773 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004239 seconds.
+Registered in 0.004114 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002B712BCD6D0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000024BC0E031C0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70DE08020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000024D78095040 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B712629F60 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000024BC01D5020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7156778E0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
+Symbol file data-0000024BC0D43750 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7156F3010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000024D7D1EC420 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70FF93040 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Siccity.GLTFUtility.dll
+Symbol file data-0000024BC050C3C0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Siccity.GLTFUtility.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70F077020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000024D7445BD90 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7106B7010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000024BC41A7010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7121BD3F0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file data-0000024D77CEB030 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Burst.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B711FBC900 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000024D7BBAE020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B712A04030 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file data-0000024BC0610EB0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B712F54760 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file data-0000024D7D604500 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70FF93040 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file data-0000024BC050C3C0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7151383F0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file data-0000024D736C0760 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B712948190 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file data-0000024D7BE38010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70BF47030 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000024BC3193F10 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70A2B2FE0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file data-0000024D77F36010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B715DEEB30 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000024BC0EB4030 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70E110020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000024D73EBE0F0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70F7FA890 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+Symbol file data-0000024BC35FDFC0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70B522A80 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file data-0000024BC3A93200 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70C26C010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000024BC2D42530 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B71223DD50 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll
+Symbol file data-0000024BC02FB280 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Siccity.GLTFUtility.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B712C54670 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file data-0000024BC3571E40 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70A1440A0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-0000024D7E1EFC70 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B714F800A0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
+Symbol file data-0000024D7C7950B0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7121BD3F0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-0000024BC0B988B0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B715B82D70 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file data-0000024BC3344E80 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Burst.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7154F83B0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file data-0000024D7C573020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7065FA380 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file data-0000024BC0E50440 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70E7AA040 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file data-0000024BC056D020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B6DB8305D0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\ReadyPlayerMe.dll
+Symbol file data-0000024BC3187E20 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\ReadyPlayerMe.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7155FE740 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\WebView.dll
+Symbol file data-0000024D78297BE0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\WebView.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7157696B0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000024BC28BCED0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70BA01CB0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\ReadyPlayerMe.Editor.dll
+Symbol file data-0000024BC3719E80 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\ReadyPlayerMe.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7158EF840 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
+Symbol file data-0000024D780FA010 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B715D2C2B0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file data-0000024BC2E54CC0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7155FE740 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file data-0000024D78297BE0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Management.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B715134390 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-0000024BC319F180 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7154F83B0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000024D7C573020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7154F36E0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+Symbol file data-0000024BC2E54CC0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B712EF7FD0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\ReadyPlayerMe.Extras.Editor.dll
+Symbol file data-0000024BC3CBFFB0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\ReadyPlayerMe.Extras.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B7155FE740 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file data-0000024D7E081E20 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70B60A020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file data-0000024BC01D5020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70B674610 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file data-0000024BC2EB6810 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70B930020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file data-0000024BC3571E40 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70BBF7C70 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+Symbol file data-0000024D782FE470 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70B930020 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file data-0000024BC3571E40 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B70FB838C0 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
+Symbol file data-0000024BC3361B90 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002B712B86410 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file data-0000024BC3356E60 doesn't match image D:\Unity Projects\MetaXSP\Pentagrama\Discos_VR\Library\ScriptAssemblies\Unity.XR.Oculus.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 0.89 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <8c5a8d07a8984a6fbb6ff8bbd8146fd5>:0 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <8c5a8d07a8984a6fbb6ff8bbd8146fd5>:0 
@@ -981,30 +1053,30 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.938 seconds
+- Completed reload, in  0.878 seconds
 Domain Reload Profiling:
-	ReloadAssembly (938ms)
-		BeginReloadAssembly (91ms)
+	ReloadAssembly (879ms)
+		BeginReloadAssembly (86ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (804ms)
-			LoadAssemblies (80ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (753ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (219ms)
+			SetupTypeCache (198ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (389ms)
+			SetupLoadedEditorAssemblies (373ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (301ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (290ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
@@ -1012,12 +1084,12 @@ Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.91 ms, found 10 plugins.
 Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 2951 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.3 MB.
-System memory in use after: 153.5 MB.
+Unloading 2952 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 167.5 MB.
+System memory in use after: 167.7 MB.
 
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3497.
-Total: 3.229700 ms (FindLiveObjects: 0.227300 ms CreateObjectMapping: 0.131600 ms MarkObjects: 2.845200 ms  DeleteObjects: 0.025000 ms)
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3559.
+Total: 3.382900 ms (FindLiveObjects: 0.242900 ms CreateObjectMapping: 0.100900 ms MarkObjects: 3.009500 ms  DeleteObjects: 0.028600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
