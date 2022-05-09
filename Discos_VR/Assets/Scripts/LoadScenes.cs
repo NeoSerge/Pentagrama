@@ -9,6 +9,8 @@ using UnityEngine.Animations;
 public class LoadScenes : MonoBehaviour
 {
 
+    public bool scriptCompleto = false;
+
     [SerializeField] string sceneName;
     [SerializeField] private Animation moveToPortal;
 
@@ -30,37 +32,51 @@ public class LoadScenes : MonoBehaviour
     [SerializeField] private GameObject outfitTop;
     [SerializeField] private GameObject outfitTeeth;
 
+    //Canvases de escenarios
+    [SerializeField] private GameObject canvasPontAeri;
+    [SerializeField] private GameObject canvasBar;
+    [SerializeField] private GameObject canvasEscenary;
+    [SerializeField] private GameObject canvasKafe;
+    [SerializeField] private GameObject canvasPrimavera;
+
     private void Start()
     {
-        if (VariablesGlobales.toPontAeri == true)
-        {
-            sceneName = "3_VR_Disco1";
-        }
-        else if (VariablesGlobales.toBar == true)
-        {
-            sceneName = "4_Bar";
-        }
-        else if (VariablesGlobales.toEscenary == true)
-        {
-            sceneName = "5_Escenary";
-        }
-        else if (VariablesGlobales.toKafe == true)
-        {
-            sceneName = "6_Kafe";
-        }
-        else if (VariablesGlobales.toPrimavera == true)
-        {
-            sceneName = "7_Primavera";
-        }
-        else
-        {
-            sceneName = "3_VR_Disco1";
-        }
 
+        if (scriptCompleto)
+        {
 
-
-
-
+            // cambia variable para ir a escenario y activar canvases correctos 
+            if (VariablesGlobales.toPontAeri == true)
+            {
+                sceneName = "3_VR_Disco1";
+                canvasPontAeri.SetActive(true);
+            }
+            else if (VariablesGlobales.toBar == true)
+            {
+                sceneName = "4_Bar";
+                canvasBar.SetActive(true);
+            }
+            else if (VariablesGlobales.toEscenary == true)
+            {
+                sceneName = "5_Escenary";
+                canvasEscenary.SetActive(true);
+            }
+            else if (VariablesGlobales.toKafe == true)
+            {
+                sceneName = "6_Kafe";
+                canvasKafe.SetActive(true);
+            }
+            else if (VariablesGlobales.toPrimavera == true)
+            {
+                sceneName = "7_Primavera";
+                canvasPrimavera.SetActive(true);
+            }
+            else
+            {
+                sceneName = "3_VR_Disco1";
+                canvasPontAeri.SetActive(true);
+            }
+        }
 
         mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
     }
@@ -80,12 +96,12 @@ public class LoadScenes : MonoBehaviour
     public void LoadLobby()
     {
 
-        SceneManager.LoadScene("2_Lobby");
+        SceneManager.LoadScene("Lobby_Test");
     }
 
     public void LoadPlaza()
     {
-
+        VariablesGlobales.DesactivaVariables();
         SceneManager.LoadScene("1_Plaza");
     }
 

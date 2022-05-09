@@ -16,27 +16,27 @@ public class ColisionEntradas : MonoBehaviour
             VariablesGlobales.toPontAeri = true;
         }
 
-        if (nombreEscenaColision == "Bar")
+        else if (nombreEscenaColision == "Bar")
         {
             VariablesGlobales.toBar = true;
         }
 
-        if (nombreEscenaColision == "Escenary")
+        else if (nombreEscenaColision == "Escenary")
         {
             VariablesGlobales.toEscenary = true;
         }
 
-        if (nombreEscenaColision == "Kafe")
+        else if (nombreEscenaColision == "Kafe")
         {
             VariablesGlobales.toKafe = true;
         }
 
-        if (nombreEscenaColision == "Primavera")
+        else if (nombreEscenaColision == "Primavera")
         {
             VariablesGlobales.toPrimavera = true;
         }
 
-        SceneManager.LoadScene("2_Lobby");
+        SceneManager.LoadScene("Lobby_Test");
         
     }
 }
