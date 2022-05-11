@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Lobby_Test.unity
+- path: Assets/Scenes/1_Plaza.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
