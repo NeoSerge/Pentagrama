@@ -19,3 +19,5 @@ Discos_VR/Library/PackageCache/com.unity.burst@1.6.0/.Runtime/hostlin/lld filter
 Discos_VR/Library/PackageCache/com.unity.burst@1.6.0/.Runtime/hostmac/dsymutil filter=lfs diff=lfs merge=lfs -text
 Discos_VR/Library/PackageCache/com.unity.burst@1.6.0/.Runtime/hostmac/lld filter=lfs diff=lfs merge=lfs -text
 Discos_VR/Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
+*.unity3d filter=lfs diff=lfs merge=lfs -text
+Discos_VR/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/merged_assets/release/out/bin/Data/data.unity3d filter=lfs diff=lfs merge=lfs -text

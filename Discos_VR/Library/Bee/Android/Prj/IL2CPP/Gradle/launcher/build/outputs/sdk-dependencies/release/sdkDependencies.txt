@@ -1,0 +1,36 @@
+# List of SDK dependencies of this app, this information is also included in an encrypted form in the APK.
+# For more information visit: https://d.android.com/r/tools/dependency-metadata
+
+library {
+  maven_library {
+    artifactId: "WebViewPlugin"
+  }
+  digests {
+    sha256: "igk\033\v&\341j\254\354c)mW\241\034\320\212<\340A/\\b\213\317\360;\301Io\327"
+  }
+}
+library {
+  maven_library {
+    artifactId: "OVRPlugin"
+  }
+  digests {
+    sha256: "B\204\025Y\342\334\207b\277\243\031\320\n\026\356c \324\222\212\035&\245h\"\307D1\321\265j\256"
+  }
+}
+library {
+  digests {
+    sha256: "\250%5\376Z\320\334\aO\247\216\033L\305\303\247KV\333\217\306C>\232\2267(\034\360\v\033S"
+  }
+}
+library_dependencies {
+}
+library_dependencies {
+  library_index: 1
+}
+library_dependencies {
+  library_index: 2
+}
+module_dependencies {
+  module_name: "base"
+  dependency_index: 2
+}
