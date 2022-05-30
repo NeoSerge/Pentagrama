@@ -119,6 +119,36 @@
 -define:UNITY_POST_PROCESSING_STACK_V2
 -define:CROSS_PLATFORM_INPUT
 -define:MOBILE_INPUT
+-define:MIRROR
+-define:MIRROR_17_0_OR_NEWER
+-define:MIRROR_18_0_OR_NEWER
+-define:MIRROR_24_0_OR_NEWER
+-define:MIRROR_26_0_OR_NEWER
+-define:MIRROR_27_0_OR_NEWER
+-define:MIRROR_28_0_OR_NEWER
+-define:MIRROR_29_0_OR_NEWER
+-define:MIRROR_30_0_OR_NEWER
+-define:MIRROR_30_5_2_OR_NEWER
+-define:MIRROR_32_1_2_OR_NEWER
+-define:MIRROR_32_1_4_OR_NEWER
+-define:MIRROR_35_0_OR_NEWER
+-define:MIRROR_35_1_OR_NEWER
+-define:MIRROR_37_0_OR_NEWER
+-define:MIRROR_38_0_OR_NEWER
+-define:MIRROR_39_0_OR_NEWER
+-define:MIRROR_40_0_OR_NEWER
+-define:MIRROR_41_0_OR_NEWER
+-define:MIRROR_42_0_OR_NEWER
+-define:MIRROR_43_0_OR_NEWER
+-define:MIRROR_44_0_OR_NEWER
+-define:MIRROR_46_0_OR_NEWER
+-define:MIRROR_47_0_OR_NEWER
+-define:MIRROR_53_0_OR_NEWER
+-define:MIRROR_55_0_OR_NEWER
+-define:MIRROR_57_0_OR_NEWER
+-define:MIRROR_58_0_OR_NEWER
+-define:MIRROR_65_0_OR_NEWER
+-define:MIRROR_66_0_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
@@ -325,6 +355,7 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.OpenXR.Editor.ref.dll"
