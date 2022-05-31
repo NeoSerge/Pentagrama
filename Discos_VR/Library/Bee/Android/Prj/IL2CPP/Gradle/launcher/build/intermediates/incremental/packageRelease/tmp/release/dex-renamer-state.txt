@@ -1,4 +1,0 @@
-#Sat May 14 23:16:31 CDT 2022
-base.0=D\:\\Unity Projects\\MetaXSP\\Pentagrama\\Discos_VR\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
