@@ -7,7 +7,7 @@ namespace DiscoVR
     public class NetworkGamePlayerDisco : NetworkBehaviour
     {
         [SyncVar]
-        public string DisplayName = "Loading ...";
+        private string displayName = "Loading ...";
 
         private NetworkManagerDisco room;
         private NetworkManagerDisco Room
@@ -29,6 +29,11 @@ namespace DiscoVR
         public override void OnStopClient()
         {
             Room.GamePlayers.Remove(this);
+        }
+        [Server]
+        public void SetDisplayName(string displayName)
+        {
+            this.displayName = displayName;
         }
 
     }

@@ -24,7 +24,6 @@ public class PlayerNameInput : MonoBehaviour
     private void SetUpInputField()
     {
         if (!PlayerPrefs.HasKey(PlayerPrefsNameKey)) { return; }
-        PlayerPrefs.SetString(PlayerPrefsNameKey, "test");
         string defaulName = PlayerPrefs.GetString(PlayerPrefsNameKey);
 
         nameInputField.text = defaulName;

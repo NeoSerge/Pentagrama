@@ -17,7 +17,7 @@ namespace DiscoVR
 
         [Header("Game")]
         [SerializeField] private NetworkGamePlayerDisco gamePlayerPrefab = null;
-        [SerializeField] private GameObject playerSpawSysytem = null;
+        [SerializeField] private GameObject playerSpawnSysytem = null;
         [SerializeField] private GameObject roundSystem = null;
 
         public static event Action OnClientConnected;
@@ -72,6 +72,7 @@ namespace DiscoVR
                 return;
             }
         }
+        
         public override void OnServerAddPlayer(NetworkConnectionToClient conn)
         {
             Debug.Log("*****" + SceneManager.GetActiveScene().name + "  menuScene: "+ menuScene);
@@ -138,13 +139,14 @@ namespace DiscoVR
         public override void ServerChangeScene(string newSceneName)
         {
             //From menu to game
-            if(SceneManager.GetActiveScene().name == menuScene && newSceneName.StartsWith(GameScene))
+            //newSceneName.StartsWith("scene_Map")
+            if (SceneManager.GetActiveScene().name == menuScene && newSceneName.StartsWith(GameScene))
             {
                 for(int i = RoomPlayers.Count-1; i>=0; i--)
                 {
                     var conn = RoomPlayers[i].connectionToClient;
                     var gameplayInstace = Instantiate(gamePlayerPrefab);
-                    gameplayInstace.DisplayName = RoomPlayers[i].DisplayName;
+                    gameplayInstace.SetDisplayName(RoomPlayers[i].DisplayName);
 
                     NetworkServer.Destroy(conn.identity.gameObject);
 
@@ -152,6 +154,19 @@ namespace DiscoVR
                 }
             }
             base.ServerChangeScene(newSceneName);
+        }
+        public override void OnServerSceneChanged(string sceneName)
+        {
+            if (sceneName.StartsWith(GameScene))
+            {
+                GameObject playerSpawnSystemInstance = Instantiate(playerSpawnSysytem);
+                NetworkServer.Spawn(playerSpawnSystemInstance);                
+            }
+        }
+        public override void OnServerReady(NetworkConnectionToClient conn)
+        {
+            base.OnServerReady(conn);
+            OnServerReadied?.Invoke(conn);
         }
 
     }
