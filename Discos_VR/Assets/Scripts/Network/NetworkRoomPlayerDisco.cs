@@ -107,6 +107,7 @@ namespace DiscoVR
         [Command]
         public void CmdStartGame()
         {
+            if (Room.RoomPlayers[0].connectionToClient != connectionToClient) { return; }
             //validate is lobby owner
             Room.StartGame();
         }

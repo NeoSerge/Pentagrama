@@ -30,25 +30,33 @@ namespace DiscoVR
         public override void OnStartServer() => spawnPrefabs = Resources.LoadAll<GameObject>("SpawnablePrefabs").ToList();//falta algo
         public override void OnStartClient()
         {
-            var spawnablePrefabs = Resources.LoadAll<GameObject>("SpawnablePrefabs");
-
-            foreach(var prefab in spawnPrefabs)
+            var spawnablePrefabs = Resources.LoadAll<GameObject>("SpawnablePrefabs").ToList();
+            // var spawnablePrefabs = Resources.LoadAll<GameObject>("SpawnablePrefabs").ToList();
+            Debug.Log(spawnablePrefabs.Count);
+            foreach (var prefab in spawnablePrefabs)
             {
                 // ClientScene == NetworkClient
-               NetworkClient.RegisterPrefab(prefab);
+                // NetworkClient.RegisterPrefab(prefab);
+                NetworkClient.RegisterPrefab(prefab);
             }
+            
         }
         
         public override void OnClientConnect(NetworkConnection conn)
         {
+            
             if (!clientLoadedScene)
             {
                 //if (!NetworkClient.ready) NetworkClient.Ready(conn);
-                if (!NetworkClient.ready) NetworkClient.Ready();
+                if (!NetworkClient.ready)
+                {
+                    NetworkClient.Ready();
+                }
+                NetworkClient.AddPlayer();
                 //OnClientSceneChanged.AddPlayer();
-                OnClientSceneChanged();
+                //OnClientSceneChanged();
             }
-            base.OnClientConnect(conn);
+            //base.OnClientConnect(conn);
             OnClientConnected?.Invoke();
             
         }
@@ -89,21 +97,30 @@ namespace DiscoVR
         {
             if (conn.identity != null)
             {
-                var player = conn.identity.GetComponent<NetworkBehaviour>();
-                if(player is NetworkRoomPlayerDisco roomPlayer)
-                {
-                    RoomPlayers.Remove(roomPlayer);
-                    NotifyPlayerOfReadyState();
-                }else if (player is NetworkGamePlayerDisco gamePlayer)
-                {
-                    GamePlayers.Remove(gamePlayer);
-                }
+                var player = conn.identity.GetComponent<NetworkRoomPlayerDisco>();
+
+                RoomPlayers.Remove(player);
+                NotifyPlayerOfReadyState();
             }
             base.OnServerDisconnect(conn);
         }
-        
 
-
+        public void NotifyPlayerOfReadyState()
+        {
+            foreach (var player in RoomPlayers)
+            {
+                player.HandleReadyToStart(IsReadyToStart());
+            }
+        }
+        public bool IsReadyToStart()
+        {
+            if (numPlayers < minPlayer) { return false; }
+            foreach (var player in RoomPlayers)
+            {
+                if (!player.IsReady) { return false; }
+            }
+            return true;
+        }
 
         public override void OnStopServer()
         {
@@ -111,23 +128,9 @@ namespace DiscoVR
             GamePlayers.Clear();
         }
 
-        public void NotifyPlayerOfReadyState()
-        {
-            foreach(var player in RoomPlayers)
-            {
-                player.HandleReadyToStart(IsReadyToStart());
-            }
-        }
 
-        public bool IsReadyToStart()
-        {
-            if (numPlayers < minPlayer) { return false; }
-            foreach (var player in RoomPlayers)
-            {
-                if(!player.IsReady) { return false; }
-            }
-            return true;
-        }
+
+
         public void StartGame()
         {
             if (SceneManager.GetActiveScene().name == menuScene)
