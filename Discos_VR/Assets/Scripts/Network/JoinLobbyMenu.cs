@@ -32,7 +32,7 @@ namespace DiscoVR
         {
             string ipAddress = ipAddressInputField.text;
 
-            networkManager.networkAddress = ipAddress;
+            networkManager.networkAddress = "localhost";
             networkManager.StartClient();
 
             joinButton.interactable = false;

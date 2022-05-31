@@ -230,7 +230,6 @@ E:\unity\DiscoVrMultiplayer\Discor_VR_Mirror\Discos_VR\Temp\Bin\Debug\UnityEngin
 E:\unity\DiscoVrMultiplayer\Discor_VR_Mirror\Discos_VR\Temp\Bin\Debug\UnityEngine.NVIDIAModule.dll
 E:\unity\DiscoVrMultiplayer\Discor_VR_Mirror\Discos_VR\Temp\Bin\Debug\UnityEngine.VirtualTexturingModule.dll
 E:\unity\DiscoVrMultiplayer\Discor_VR_Mirror\Discos_VR\Temp\Bin\Debug\Unity.Cecil.dll
-E:\unity\DiscoVrMultiplayer\Discor_VR_Mirror\Discos_VR\Temp\Bin\Debug\Unity.CompilationPipeline.Common.dll
 E:\unity\DiscoVrMultiplayer\Discor_VR_Mirror\Discos_VR\Temp\Bin\Debug\WebGLPlayerBuildProgram.Data.dll
 E:\unity\DiscoVrMultiplayer\Discor_VR_Mirror\Discos_VR\Temp\Bin\Debug\AndroidPlayerBuildProgram.Data.dll
 E:\unity\DiscoVrMultiplayer\Discor_VR_Mirror\Discos_VR\Temp\Bin\Debug\WinPlayerBuildProgram.Data.dll
